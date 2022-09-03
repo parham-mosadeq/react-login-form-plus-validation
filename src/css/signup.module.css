@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #fff;
+}
+
+.container h1 {
+  margin-bottom: 4rem;
+  text-align: left;
+  text-transform: uppercase;
+  color: #1f51ff;
+  letter-spacing: 1.3px;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 2px solid #89cff0;
+  padding: 2rem;
+  width: 60vw;
+}
+
+.formContainer label {
+  padding-bottom: 1rem;
+  text-transform: capitalize;
+  letter-spacing: 1.2px;
+  color: #0000ff;
+}
+
+.formField {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+}
+
+.formContainer span {
+  font-size: 10px;
+  background-color: rgb(255, 50, 50);
+  color: #fff;
+  padding: 0.4rem;
+  border-radius: 8px;
+  display: block;
+  width: fit-content;
+  margin-top: 0.3rem;
+}
+
+.formField input {
+  padding: 0.3rem;
+  border-radius: 8px;
+  border: 1px solid blacks;
+}
+
+.checkbox {
+  display: grid;
+  grid-template-columns: 1fr 20px;
+  align-items: center;
+}
+
+.checkbox span {
+  display: block;
+}
+
+.btn button {
+  padding: 0.8rem;
+  border-radius: 9px;
+  border: 0;
+  background-color: #0000ff;
+  color: #fff;
+  font-size: 18px;
+  letter-spacing: 1.3px;
+  cursor: pointer;
+  text-transform: capitalize;
+  transition: all 0.2s linear;
+}
+
+.btn button:hover {
+  background-color: #fff;
+  color: #0000ff;
+}
+
+.btn a {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #0000ffc8;
+  letter-spacing: 1.4px;
+}
+
+.btn a:hover{
+  color: #0000b8;
+}
+
+.btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
